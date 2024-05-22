@@ -21,3 +21,7 @@ function fuzzAndBuzz(num){
         console.log("NOT Fuzz and NOT Buzz")
     }
 }
+fuzzAndBuzz(50)
+fuzzAndBuzz(30)
+fuzzAndBuzz(9)
+fuzzAndBuzz(1)
