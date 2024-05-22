@@ -16,10 +16,11 @@ for( i=1 ; i<=20 ; i+=2 ){
 // Fibonacci sequence:
 fibonacciSequence = 0
 temp=1
+trmp2=0
 for(i = 0 ; i<=10 ; i++){
+    temp2=fibonacciSequence
+    fibonacciSequence = temp + temp2
     temp = fibonacciSequence
-    fibonacciSequence += i
-    fibonacciSequence=temp
     console.log(`${fibonacciSequence} , `)
 }
 
